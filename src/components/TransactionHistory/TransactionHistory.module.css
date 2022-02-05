@@ -1,0 +1,26 @@
+.transactionHistory {
+  margin: 0 auto;
+  background-color: cornsilk;
+  width: 500px;
+  border-spacing: 0;
+}
+
+tr:nth-child(2n) {
+  background-color: #df40403f;
+}
+tr:nth-child(2n-1) {
+  background-color: #fff;
+  color: #42424b;
+}
+tr.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #4b4a4a;
+  margin-top: 10px;
+  background-color: cornsilk;
+}

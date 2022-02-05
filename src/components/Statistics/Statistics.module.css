@@ -1,0 +1,66 @@
+.statistics {
+  margin: 0 auto;
+  max-width: 400px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgba(235, 230, 230, 1);
+  background-color: #ffffff;
+}
+.title {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #42424b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list {
+  display: flex;
+  padding: 0;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  flex-direction: column;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgba(235, 230, 230, 1);
+  background-color: #df40403f;
+}
+.item:not(:last-child) {
+  margin-right: 5px;
+}
+.label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #42424b;
+  margin-bottom: 10px;
+}
+.percentage {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

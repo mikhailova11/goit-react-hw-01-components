@@ -1,0 +1,11 @@
+.list {
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgba(235, 230, 230, 1);
+  background-color: antiquewhite;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
