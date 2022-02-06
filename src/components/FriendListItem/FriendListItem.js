@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import s from './FriendListItem.module.css';
 
-const FriendListItem = ({ avatar, name, isOnline, id }) => {
+function FriendListItem({ avatar, name, isOnline, id }) {
   return (
     <li key={id} className={s.item}>
       <span
@@ -15,7 +15,7 @@ const FriendListItem = ({ avatar, name, isOnline, id }) => {
       </div>
     </li>
   );
-};
+}
 
 export default FriendListItem;
 
